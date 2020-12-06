@@ -11,7 +11,7 @@ for x in input:
     i = ''.join(set(x))
     task1+= len(i)
 
-print("Task 1: " + str(task1))
+print("Task 1: ",task1)
 
 for x in input:
     a = ""
@@ -23,7 +23,7 @@ for x in input:
             if z not in line:
                 a=a.replace(z,"")
     task2+= len(a)
-print("Task 2: "+str(task2))
+print("Task 2: ",task2)
 
 
 
