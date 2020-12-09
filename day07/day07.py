@@ -44,7 +44,6 @@ while len(inside) != l:
                 else:
                     break
 
-total = 0
 def countbags(colour):
     if [item for item in inside if item[0] == colour]:
         t=1
